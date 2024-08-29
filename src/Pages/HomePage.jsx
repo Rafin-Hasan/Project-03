@@ -3,6 +3,7 @@ import HomeComponent from "../Components/Home/HomeComponent";
 import WhatWeDoPage from "./WhatWeDoPAge";
 import ServicePage from "./ServicePage";
 import Project from "./Project";
+import BlogPage from "./BlogPage";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <WhatWeDoPage />
       <ServicePage />
       <Project />
+      <BlogPage />
     </div>
   );
 };
