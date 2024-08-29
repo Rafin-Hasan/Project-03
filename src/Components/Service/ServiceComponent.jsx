@@ -4,11 +4,8 @@ import "./ServiceComponent.css";
 const ServiceComponent = () => {
   return (
     <>
-      <section className="mt-[94px] container">
-        <div>
-          <img src="./img/businessBg.png" alt="bg" />
-        </div>
-        <div className="flex gsp-[102px]">
+      <section className="mt-[94px] container relative">
+        <div className="flex gsp-[102px] main">
           <div>
             <h2>How can we help your Business ?</h2>
             <p>
@@ -17,6 +14,9 @@ const ServiceComponent = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className="pic absolute top-0">
+          <img src="./img/businessBg.png" alt="bg" />
         </div>
       </section>
     </>
