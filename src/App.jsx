@@ -9,6 +9,7 @@ import LayoutOne from "./Layout/LayoutOne";
 import Home from "./Pages/HomePage";
 import WhatWeDoPage from "./Pages/WhatWeDoPAge";
 import ServicePage from "./Pages/ServicePage";
+import Project from "./Pages/Project";
 
 function App() {
   const route = createBrowserRouter(
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/whatwedo" element={<WhatWeDoPage />} />
           <Route path="/service" element={<ServicePage />} />
+          <Route path="/project" element={<Project />} />
         </Route>
       </Route>
     )
