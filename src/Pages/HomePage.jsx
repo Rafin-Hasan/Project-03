@@ -4,6 +4,7 @@ import WhatWeDoPage from "./WhatWeDoPAge";
 import ServicePage from "./ServicePage";
 import Project from "./Project";
 import BlogPage from "./BlogPage";
+import ContactPage from "./ContactPage";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ServicePage />
       <Project />
       <BlogPage />
+      <ContactPage />
     </div>
   );
 };
